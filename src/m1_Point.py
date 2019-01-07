@@ -83,7 +83,7 @@ class Point(object):
         b = self.starty - self.y
         c = (a ** 2 + b ** 2) ** .5
         return c
-    #def get_distance_traveled(self):
+    def get_distance_traveled(self):
 
     def closer_to(self, p1, p2):
         a1 = self.x - p1.x
@@ -730,7 +730,7 @@ def run_test_get_distance_from():
         print('Actual   p2 to p4:', p2.get_distance_from(p4))
     """
     # -------------------------------------------------------------------------
-    # TODO: 9.  Follow the same instructions as in _TODO_ 3 above,
+    # DO: 9.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_from  method specified above.
     # -------------------------------------------------------------------------
     print()
@@ -824,7 +824,7 @@ def run_test_get_distance_from_start():
         print('Actually is:', p2.get_distance_from_start())
     """
     # -------------------------------------------------------------------------
-    # TODO: 10.  Follow the same instructions as in _TODO_ 3 above,
+    # DO: 10.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_from_START  method specified above.
     # -------------------------------------------------------------------------
     print()
